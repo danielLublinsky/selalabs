@@ -21,7 +21,7 @@
     "Explore services": "גלו את השירותים",
     "AI-augmented delivery": "פיתוח מואץ ב‑AI",
     "Senior, embedded engineers": "מהנדסים בכירים, משובצים בצוות",
-    "Ship in weeks, not quarters": "משיקים בשבועות, לא ברבעונים",
+    "Shipping secure software": "משיקים תוכנה מאובטחת",
     "AI throughput": "תפוקת AI",
     "Engineers deployed": "מהנדסים משובצים",
 
