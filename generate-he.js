@@ -19,8 +19,8 @@ function replaceStartProject(src) {
 
 // lang / dir
 html = html.replace(
-  'lang="en" class="scroll-smooth"',
-  'lang="he" dir="rtl" class="scroll-smooth"'
+  'id="top" lang="en" class="scroll-smooth"',
+  'id="top" lang="he" dir="rtl" class="scroll-smooth"'
 );
 
 // Remove flash-prevention inline script (we're already in Hebrew)
@@ -97,11 +97,10 @@ html = html.replace('aria-label="Open menu"', 'aria-label="פתחו תפריט"'
 // ── hero ──────────────────────────────────────────────────────────────────────
 html = replaceAll(html, 'AI-native software studio', 'סטודיו תוכנה מבוסס AI');
 html = replaceAll(html, 'Software embedded within your business', 'תוכנה משובצת בתוך העסק שלכם');
-html = replaceAll(html,
-  'We focus on data automation — from the smallest workflow to full import/export pipelines. Any size, any complexity,',
-  'אנחנו מתמקדים באוטומציית נתונים — מהתהליך הקטן ביותר ועד צינורות ייבוא/ייצוא מלאים. כל גודל, כל מורכבות,'
+html = html.replace(
+  /We focus on data automation[^<]+<strong[^>]+>tailored to your needs<\/strong>\./,
+  'בונים מגוון מערכת מידע — מאוטומציות נתונים עד להשתלת מערכת בינה מלכותית.'
 );
-html = replaceAll(html, '>tailored to your needs<', '>לצרכים שלכם<');
 html = replaceAll(html, '>Explore services<', '>גלו את השירותים<');
 html = replaceAll(html, '> AI-augmented delivery<', '> פיתוח מואץ ב‑AI<');
 html = replaceAll(html, '> Senior, embedded engineers<', '> מהנדסים בכירים, משובצים בצוות<');
