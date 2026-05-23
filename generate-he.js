@@ -233,7 +233,7 @@ html = html.replace(
   'placeholder="A short description of your project, goals, and timeline."',
   'placeholder="תיאור קצר של הפרויקט, המטרות ולוח הזמנים."'
 );
-html = replaceAll(html, '>Send message<', '>שליחת הודעה<');
+html = replaceAll(html, '>Send message\n', '>שליחת הודעה\n');
 
 // ── footer ────────────────────────────────────────────────────────────────────
 html = replaceAll(html,
