@@ -41,8 +41,8 @@
     "Web platforms, internal tools, and APIs built around your workflows — not a rigid template.":
       "פלטפורמות web, כלים פנימיים ו‑APIs שנבנים סביב תהליכי העבודה שלכם — לא תבנית נוקשה.",
     "AI & LLM integration": "שילוב AI ו‑LLM",
-    "Agents, copilots, RAG, and automation wired into your product and operations — safely and measurably.":
-      "סוכנים, קו־פיילוטים, RAG ואוטומציה משולבים במוצר ובתפעול שלכם — בבטחה ובאופן מדיד.",
+    "Agents, RAG, and MCP servers wired into your product — so AI models can talk directly to your services, data, and internal tools.":
+      "סוכנים, RAG ושרתי MCP משולבים במוצר שלכם — כך מודלי AI יכולים לדבר ישירות עם השירותים, הנתונים והכלים הפנימיים שלכם.",
     "Cloud & DevOps": "ענן ו‑DevOps",
     "Scalable infrastructure, CI/CD, and observability so your product stays fast, secure, and reliable.":
       "תשתית מתרחבת, CI/CD ויכולת ניטור כדי שהמוצר שלכם יישאר מהיר, מאובטח ואמין.",
@@ -70,9 +70,9 @@
     "Build & deploy": "פיתוח והשקה",
     "We build import pipelines, processing layers, export adapters, and dashboards — shipping each increment to production weekly.":
       "בונים צינורות ייבוא, שכבות עיבוד, מתאמי ייצוא ודשבורדים — ומשיקים כל תוספת לייצור מדי שבוע.",
-    "Scale & hand off": "הרחבה והעברה",
-    "We harden for data volume, add monitoring, and document the full system so your team can own and extend it confidently.":
-      "מחזקים לנפחי נתונים, מוסיפים ניטור ומתעדים את המערכת המלאה כדי שהצוות שלכם יוכל לנהל ולהרחיב בביטחון.",
+    "Scale & support": "הרחבה ותמיכה",
+    "We harden for data volume, add monitoring, and stay on for ongoing support and security updates — so your system keeps running safely as it grows.":
+      "מחזקים לנפחי נתונים, מוסיפים ניטור ונשארים לתמיכה שוטפת ועדכוני אבטחה — כדי שהמערכת שלכם תמשיך לפעול בבטחה תוך כדי צמיחה.",
 
     // ---- CTA ----
     "Have something to build?": "יש לכם משהו לבנות?",
