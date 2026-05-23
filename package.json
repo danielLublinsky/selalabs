@@ -1,0 +1,15 @@
+{
+  "name": "selalabs-website",
+  "version": "1.0.0",
+  "description": "SelaLabs marketing website — static site built with Tailwind CSS.",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./styles.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./styles.css --watch",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
