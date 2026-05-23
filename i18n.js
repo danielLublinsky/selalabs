@@ -23,7 +23,7 @@
     "Senior, embedded engineers": "מהנדסים בכירים, משובצים בצוות",
     "Shipping secure software": "משיקים תוכנה מאובטחת",
     "AI throughput": "תפוקת AI",
-    "Engineers deployed": "מהנדסים משובצים",
+    "Secured systems": "מערכות מובטחת",
 
     // ---- marquee ----
     "Built with the modern stack": "בנוי עם הטכנולוגיות המובילות",

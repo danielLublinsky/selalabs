@@ -107,7 +107,7 @@ html = replaceAll(html, '> AI-augmented delivery<', '> פיתוח מואץ ב‑
 html = replaceAll(html, '> Senior, embedded engineers<', '> מהנדסים בכירים, משובצים בצוות<');
 html = replaceAll(html, '> Shipping secure software<', '> משיקים תוכנה מאובטחת<');
 html = replaceAll(html, '>AI throughput<', '>תפוקת AI<');
-html = replaceAll(html, '>Engineers deployed<', '>מהנדסים משובצים<');
+html = replaceAll(html, '>Secured systems<', '>מערכות מובטחת<');
 
 // ── marquee ───────────────────────────────────────────────────────────────────
 html = replaceAll(html, '>Built with the modern stack<', '>בנוי עם הטכנולוגיות המובילות<');
