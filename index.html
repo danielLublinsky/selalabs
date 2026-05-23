@@ -34,8 +34,21 @@
       <a href="#top" class="flex items-center gap-2.5 group">
         <span class="grid h-10 w-10 place-items-center rounded-xl bg-white border-2 border-leaf-500 transition-transform duration-300 group-hover:rotate-6">
           <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" aria-hidden="true">
-            <path d="M5 18C2 15 3 10 6 8C9 5 13 4 17 6C20 7 22 11 21 14C20 18 17 20 14 20C10 21 7 20 5 18Z" fill="#ffd21a" stroke="#10b981" stroke-width="1.2"/>
-            <path d="M9 10C11 8.5 14 8.5 16 10" fill="none" stroke="#f5be00" stroke-width="0.8" stroke-linecap="round"/>
+            <!-- left crystal -->
+            <polygon points="4,19 7,10 11,14 8,20" fill="#ffd21a"/>
+            <polygon points="4,19 7,10 5,7 2,14" fill="#f5be00"/>
+            <line x1="7" y1="10" x2="4" y2="19" stroke="#e6a800" stroke-width="0.5"/>
+            <line x1="7" y1="10" x2="8" y2="20" stroke="#e6a800" stroke-width="0.5"/>
+            <!-- center crystal (tallest) -->
+            <polygon points="9,20 12,8 15,20" fill="#ffd21a"/>
+            <polygon points="9,20 12,8 9,5 7,12" fill="#f5be00"/>
+            <line x1="12" y1="8" x2="9" y2="20" stroke="#e6a800" stroke-width="0.5"/>
+            <line x1="12" y1="8" x2="15" y2="20" stroke="#e6a800" stroke-width="0.5"/>
+            <!-- right crystal -->
+            <polygon points="13,19 16,11 20,14 17,20" fill="#ffd21a"/>
+            <polygon points="16,11 20,8 22,14 20,14" fill="#f5be00"/>
+            <line x1="16" y1="11" x2="13" y2="19" stroke="#e6a800" stroke-width="0.5"/>
+            <line x1="16" y1="11" x2="17" y2="20" stroke="#e6a800" stroke-width="0.5"/>
           </svg>
         </span>
         <span class="font-display text-xl font-bold tracking-tight text-ink-900">Sela<span class="text-brand-500">Labs</span></span>
@@ -121,16 +134,15 @@
           </span>
 
           <h1 class="reveal mt-6 font-display text-4xl font-bold leading-[1.05] tracking-tight text-ink-900 sm:text-5xl lg:text-6xl">
-            We build the software <br class="hidden sm:block" />
-            your business needs —
+            Software embedded <br class="hidden sm:block" />
+            in your business —
             <span class="gradient-text">powered by AI,</span>
             <span class="relative whitespace-nowrap">shipped by engineers<svg class="absolute -bottom-2 left-0 w-full text-brand-400" viewBox="0 0 300 12" fill="none" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9C60 3 120 3 180 6s90 4 118 1" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></span>.
           </h1>
 
           <p class="reveal mt-7 max-w-xl text-lg leading-relaxed text-ink-500">
-            SelaLabs pairs cutting-edge AI with senior engineers we
-            <strong class="font-semibold text-ink-700">deploy directly into your team</strong>.
-            You get the speed of automation and the judgment of people who&nbsp;ship.
+            We build import/export systems, data pipelines, and internal tools — with engineers
+            <strong class="font-semibold text-ink-700">embedded in your team</strong>.
           </p>
 
           <div class="reveal mt-9 flex flex-wrap items-center gap-4">
@@ -270,7 +282,7 @@
             <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>
           </span>
           <h3 class="mt-5 font-display text-xl font-semibold text-ink-900">AI &amp; LLM integration</h3>
-          <p class="mt-2 text-sm leading-relaxed text-ink-500">Agents, copilots, RAG, and automation wired into your product and operations — safely and measurably.</p>
+          <p class="mt-2 text-sm leading-relaxed text-ink-500">Agents, RAG, and MCP servers wired into your product — so AI models can talk directly to your services, data, and internal tools.</p>
         </article>
 
         <article class="reveal card card-hover">
@@ -338,8 +350,8 @@
           </li>
           <li class="reveal relative rounded-3xl border border-white/10 bg-white/[0.04] p-7 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-white/25">
             <span class="font-mono text-5xl font-bold text-brand-400">04</span>
-            <h3 class="mt-3 font-display text-lg font-semibold text-white">Scale &amp; hand off</h3>
-            <p class="mt-2 text-sm text-ink-300">We harden for data volume, add monitoring, and document the full system so your team can own and extend it confidently.</p>
+            <h3 class="mt-3 font-display text-lg font-semibold text-white">Scale &amp; support</h3>
+            <p class="mt-2 text-sm text-ink-300">We harden for data volume, add monitoring, and stay on for ongoing support and security updates — so your system keeps running safely as it grows.</p>
           </li>
         </ol>
       </div>
