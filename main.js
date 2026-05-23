@@ -20,16 +20,34 @@
   const iconOpen = document.querySelector("[data-icon-open]");
   const iconClose = document.querySelector("[data-icon-close]");
 
+  const instant = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let menuIsOpen = false;
+
   const setMenu = (open) => {
     if (!menu) return;
-    menu.classList.toggle("hidden", !open);
+    menuIsOpen = open;
+    if (open) {
+      menu.classList.remove("hidden");
+      if (instant) {
+        menu.classList.add("menu-open");
+      } else {
+        requestAnimationFrame(() => requestAnimationFrame(() => menu.classList.add("menu-open")));
+      }
+    } else {
+      menu.classList.remove("menu-open");
+      if (instant) {
+        menu.classList.add("hidden");
+      } else {
+        menu.addEventListener("transitionend", (e) => {
+          if (e.propertyName === "max-height" && !menuIsOpen) menu.classList.add("hidden");
+        }, { once: true });
+      }
+    }
     iconOpen?.classList.toggle("hidden", open);
     iconClose?.classList.toggle("hidden", !open);
     menuBtn?.setAttribute("aria-expanded", String(open));
   };
-  menuBtn?.addEventListener("click", () => {
-    setMenu(menu?.classList.contains("hidden"));
-  });
+  menuBtn?.addEventListener("click", () => setMenu(!menuIsOpen));
   document.querySelectorAll("[data-menu-link]").forEach((link) =>
     link.addEventListener("click", () => setMenu(false))
   );
