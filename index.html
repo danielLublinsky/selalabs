@@ -23,6 +23,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Inter:wght@400;500;600;700&family=Rubik:wght@500;600;700&family=Space+Mono:wght@400;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    /* Mobile menu slide + fade animation */
+    [data-menu] {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transition: max-height 0.38s cubic-bezier(0.4, 0, 0.2, 1),
+                  opacity 0.25s ease;
+    }
+    [data-menu].menu-open {
+      max-height: 320px;
+      opacity: 1;
+    }
+    /* Stagger each link into view */
+    [data-menu] > div > a {
+      opacity: 0;
+      transform: translateY(-6px);
+      transition: opacity 0.2s ease, transform 0.2s ease;
+    }
+    [data-menu].menu-open > div > a { opacity: 1; transform: translateY(0); }
+    [data-menu].menu-open > div > a:nth-child(1) { transition-delay: 0.09s; }
+    [data-menu].menu-open > div > a:nth-child(2) { transition-delay: 0.15s; }
+    [data-menu].menu-open > div > a:nth-child(3) { transition-delay: 0.21s; }
+    @media (prefers-reduced-motion: reduce) {
+      [data-menu], [data-menu] > div > a { transition: none !important; }
+    }
+  </style>
 </head>
 
 <body class="overflow-x-hidden">
