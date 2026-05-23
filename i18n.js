@@ -111,7 +111,7 @@
     "SelaLabs היא סטודיו תוכנה היי‑טק שבונה תוכנה מותאמת אישית לצרכים שלכם — שילוב של AI מתקדם עם מהנדסים בכירים שאנחנו משבצים ישירות בצוות שלכם.";
 
   function norm(s) {
-    return s.replace(/\s+/g, " ").trim();
+    return s.replace(/[\s ]+/g, " ").trim();
   }
 
   // Normalised lookup table
