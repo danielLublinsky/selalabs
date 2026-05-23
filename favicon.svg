@@ -1,8 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="7" fill="white"/>
-  <g fill="none" stroke="#ffd21a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M7 16C3 9 11 2 17 3C23 3 30 9 29 16C28 23 22 30 16 29C9 30 4 24 7 16Z"/>
-    <path d="M7 16C12 21 21 20 29 16"/>
-    <path d="M20 24Q23 28 19 29"/>
+  <g fill="none" stroke="#ffd21a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left crystal -->
+    <path d="M2 29L2 22L7 15L12 23L12 29Z"/>
+    <path d="M2 22L7 18L12 23"/>
+    <path d="M7 15L7 20"/>
+    <!-- center crystal (tallest) -->
+    <path d="M10 29L9 19L16 4L23 20L23 29Z"/>
+    <path d="M9 19L16 13L23 20"/>
+    <path d="M16 4L16 16"/>
+    <!-- right crystal -->
+    <path d="M21 29L21 22L26 13L30 22L30 29Z"/>
+    <path d="M21 22L26 17L30 22"/>
+    <path d="M26 13L26 20"/>
   </g>
 </svg>
