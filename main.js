@@ -105,15 +105,16 @@
   const form = document.querySelector("[data-contact-form]");
   form?.addEventListener("submit", (e) => {
     e.preventDefault();
-    if (!form.checkValidity()) {
-      form.reportValidity();
-      return;
-    }
+    if (!form.reportValidity()) return;
+
     const data = new FormData(form);
     const name = (data.get("name") || "").toString().trim();
     const email = (data.get("email") || "").toString().trim();
     const company = (data.get("company") || "").toString().trim();
     const message = (data.get("message") || "").toString().trim();
+
+    // Guard: required fields that passed browser validation but are whitespace-only after trim
+    if (!name || !email || !message) return;
 
     const subject = `Project inquiry from ${name}${company ? " · " + company : ""}`;
     const body =
