@@ -14,10 +14,7 @@
 
     // ---- hero ----
     "AI-native software studio": "סטודיו תוכנה מבוסס AI",
-    "Software embedded": "תוכנה משובצת",
-    "in your business —": "בתוך העסק שלכם —",
-    "powered by AI,": "מופעלת על־ידי AI,",
-    "shipped by engineers": "ונשלחת על־ידי מהנדסים",
+    "Software embedded within your business": "תוכנה משובצת בתוך העסק שלכם",
     "We build import/export systems, data pipelines, and internal tools — with engineers":
       "אנחנו בונים מערכות ייבוא/ייצוא, צינורות נתונים וכלים פנימיים — עם מהנדסים",
     "embedded in your team": "משובצים בצוות שלכם",
