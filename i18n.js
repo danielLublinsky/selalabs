@@ -107,7 +107,7 @@
   var PH = {
     name: "ישראל ישראלי",
     email: "israel@company.com",
-    company: "אקמה בע”מ",
+    company: “אקמה בע\”מ”,
     message: "תיאור קצר של הפרויקט, המטרות ולוח הזמנים."
   };
 
