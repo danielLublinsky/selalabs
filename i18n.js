@@ -60,21 +60,21 @@
 
     // ---- process ----
     "How we work": "איך אנחנו עובדים",
-    "A clear path from idea to impact": "מסלול ברור מרעיון ועד תוצאה",
-    "A lightweight process that keeps you in the loop and momentum high.":
-      "תהליך קליל שמשאיר אתכם מעודכנים ושומר על קצב גבוה.",
+    "A clear path from data in to insight out": "מסלול ברור מנתון ועד תובנה",
+    "A lightweight process built around your data flows, from import to visualization.":
+      "תהליך קליל סביב זרימת הנתונים שלכם — מייבוא ועד להמחשה.",
     "Discover": "אפיון",
-    'We map your goals, constraints, and users to define what "done" really means.':
-      "ממפים את המטרות, האילוצים והמשתמשים שלכם כדי להגדיר מה זה באמת „גמור”.",
+    "We map your data sources, formats, business rules, and target systems to define the right pipeline for your operations.":
+      "ממפים את מקורות הנתונים, הפורמטים, כללי העסק ומערכות היעד שלכם כדי לתכנן את הצינור הנכון לפעילות.",
     "Architect": "ארכיטקטורה",
-    "We design a pragmatic, scalable architecture and a plan to ship value early.":
-      "מתכננים ארכיטקטורה פרקטית ומתרחבת ותוכנית לאספקת ערך כבר בשלבים הראשונים.",
+    "We design a scalable import/export architecture with transformation logic, internal tooling, and connectors built for your stack.":
+      "מתכננים ארכיטקטורת ייבוא/ייצוא מתרחבת עם לוגיקת טרנספורמציה, כלים פנימיים ומחברים שנבנו לסטאק שלכם.",
     "Build & deploy": "פיתוח והשקה",
-    "AI-augmented engineers ship in tight increments, in production, every week.":
-      "מהנדסים בעזרת AI משיקים בצעדים קטנים, בסביבת ייצור, מדי שבוע.",
+    "We build import pipelines, processing layers, export adapters, and dashboards — shipping each increment to production weekly.":
+      "בונים צינורות ייבוא, שכבות עיבוד, מתאמי ייצוא ודשבורדים — ומשיקים כל תוספת לייצור מדי שבוע.",
     "Scale & hand off": "הרחבה והעברה",
-    "We harden, document, and transfer ownership so your team can run it confidently.":
-      "מחזקים, מתעדים ומעבירים בעלות כדי שהצוות שלכם יוכל לתפעל בביטחון.",
+    "We harden for data volume, add monitoring, and document the full system so your team can own and extend it confidently.":
+      "מחזקים לנפחי נתונים, מוסיפים ניטור ומתעדים את המערכת המלאה כדי שהצוות שלכם יוכל לנהל ולהרחיב בביטחון.",
 
     // ---- CTA ----
     "Have something to build?": "יש לכם משהו לבנות?",
