@@ -15,9 +15,9 @@
     // ---- hero ----
     "AI-native software studio": "סטודיו תוכנה מבוסס AI",
     "Software embedded within your business": "תוכנה משובצת בתוך העסק שלכם",
-    "We build import/export systems, data pipelines, and internal tools — with engineers":
-      "אנחנו בונים מערכות ייבוא/ייצוא, צינורות נתונים וכלים פנימיים — עם מהנדסים",
-    "embedded in your team": "משובצים בצוות שלכם",
+    "We focus on data automation — from the smallest workflow to full import/export pipelines. Any size, any complexity,":
+      "אנחנו מתמקדים באוטומציית נתונים — מהתהליך הקטן ביותר ועד צינורות ייבוא/ייצוא מלאים. כל גודל, כל מורכבות,",
+    "tailored to your needs": "לצרכים שלכם",
     "Explore services": "גלו את השירותים",
     "AI-augmented delivery": "פיתוח מואץ ב‑AI",
     "Senior, embedded engineers": "מהנדסים בכירים, משובצים בצוות",
