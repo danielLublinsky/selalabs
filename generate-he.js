@@ -95,7 +95,7 @@ html = replaceStartProject(html);
 html = html.replace('aria-label="Open menu"', 'aria-label="פתחו תפריט"');
 
 // ── hero ──────────────────────────────────────────────────────────────────────
-html = replaceAll(html, 'AI-native software studio', 'סטודיו תוכנה מבוסס AI');
+html = replaceAll(html, 'AI-native software studio', 'מוכנים לתת שירות');
 html = replaceAll(html, 'Software embedded within your business', 'תוכנה משובצת בתוך העסק שלכם');
 html = html.replace(
   /We focus on data automation[^<]+<strong[^>]+>tailored to your needs<\/strong>\./,
