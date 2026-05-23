@@ -14,15 +14,13 @@
 
     // ---- hero ----
     "AI-native software studio": "סטודיו תוכנה מבוסס AI",
-    "We build the software": "אנחנו בונים את התוכנה",
-    "your business needs —": "שהעסק שלכם צריך —",
+    "Software embedded": "תוכנה משובצת",
+    "in your business —": "בתוך העסק שלכם —",
     "powered by AI,": "מופעלת על־ידי AI,",
     "shipped by engineers": "ונשלחת על־ידי מהנדסים",
-    "SelaLabs pairs cutting-edge AI with senior engineers we":
-      "SelaLabs משלבת AI מתקדם עם מהנדסים בכירים שאנחנו",
-    "deploy directly into your team": "משבצים ישירות בצוות שלכם",
-    ". You get the speed of automation and the judgment of people who ship.":
-      ". כך אתם מקבלים את מהירות האוטומציה ואת שיקול הדעת של אנשים שמספקים תוצאות.",
+    "We build import/export systems, data pipelines, and internal tools — with engineers":
+      "אנחנו בונים מערכות ייבוא/ייצוא, צינורות נתונים וכלים פנימיים — עם מהנדסים",
+    "embedded in your team": "משובצים בצוות שלכם",
     "Explore services": "גלו את השירותים",
     "AI-augmented delivery": "פיתוח מואץ ב‑AI",
     "Senior, embedded engineers": "מהנדסים בכירים, משובצים בצוות",
