@@ -45,7 +45,7 @@ npm run build    # minified styles.css
 ```
 
 Then deploy these files as-is to any static host (Netlify, Vercel, GitHub Pages, S3, …):
-`index.html`, `styles.css`, `main.js`, `favicon.svg`.
+`index.html`, `he.html`, `styles.css`, `main.js`, `favicon.svg`, `icons/`.
 
 ## Brand
 
