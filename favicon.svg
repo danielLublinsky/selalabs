@@ -1,7 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- SelaLabs mark: a cut rock ("sela") — three flat facets, lit from the top left -->
-  <rect width="32" height="32" rx="7" fill="#111114"/>
-  <path d="M8.5 13.5 15.5 5.5 23.5 9 17 15.5Z" fill="#fff3a6"/>
-  <path d="M5 26 8.5 13.5 17 15.5 13.5 26Z" fill="#ffd21a"/>
-  <path d="M13.5 26 17 15.5 23.5 9 27.5 18 26.5 26Z" fill="#d9a900"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- SelaLabs mark: a crystal cluster ("sela" = rock), outlined like the site's cards -->
+  <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="#fff" stroke="#111114" stroke-width="3"/>
+  <clipPath id="ground"><rect width="64" height="52"/></clipPath>
+  <g clip-path="url(#ground)" stroke="#111114" stroke-width="2.6" stroke-linejoin="round">
+    <g transform="translate(23.5 52) rotate(-32)">
+      <path d="M-6.5 6V-15L0 -23V6Z" fill="#ffd21a"/><path d="M6.5 6V-15L0 -23V6Z" fill="#fff"/>
+    </g>
+    <g transform="translate(41.5 52) rotate(30)">
+      <path d="M-7 6V-19L0 -27V6Z" fill="#ffd21a"/><path d="M7 6V-19L0 -27V6Z" fill="#fff"/>
+    </g>
+    <g transform="translate(32 52)">
+      <path d="M-8.5 6V-28L0 -40V6Z" fill="#ffd21a"/><path d="M8.5 6V-28L0 -40V6Z" fill="#fff"/>
+    </g>
+  </g>
+  <path d="M11.5 52H52.5" stroke="#111114" stroke-width="2.6" stroke-linecap="round"/>
 </svg>
