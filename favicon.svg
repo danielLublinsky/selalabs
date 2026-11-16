@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- SelaLabs mark: a crystal cluster ("sela" = rock), outlined like the site's cards -->
-  <rect x="1.5" y="1.5" width="61" height="61" rx="13" fill="#fff" stroke="#111114" stroke-width="3"/>
-  <clipPath id="ground"><rect width="64" height="52"/></clipPath>
-  <g clip-path="url(#ground)" stroke="#111114" stroke-width="2.6" stroke-linejoin="round">
-    <g transform="translate(23.5 52) rotate(-32)">
-      <path d="M-6.5 6V-15L0 -23V6Z" fill="#ffd21a"/><path d="M6.5 6V-15L0 -23V6Z" fill="#fff"/>
-    </g>
-    <g transform="translate(41.5 52) rotate(30)">
-      <path d="M-7 6V-19L0 -27V6Z" fill="#ffd21a"/><path d="M7 6V-19L0 -27V6Z" fill="#fff"/>
-    </g>
-    <g transform="translate(32 52)">
-      <path d="M-8.5 6V-28L0 -40V6Z" fill="#ffd21a"/><path d="M8.5 6V-28L0 -40V6Z" fill="#fff"/>
-    </g>
-  </g>
-  <path d="M11.5 52H52.5" stroke="#111114" stroke-width="2.6" stroke-linecap="round"/>
-</svg>
+  <!-- SelaLabs mark: a square of paved stones ("sela" = rock), mirror-symmetric in every direction -->
+<g stroke-width="3" stroke-linejoin="round">
+<path d="M32.0 16.8 47.2 32.0 32.0 47.2 16.8 32.0Z" fill="#111114" stroke="#111114"/>
+<path d="M5.7 5.7 8.5 5.7 5.7 8.5Z" fill="#111114" stroke="#111114"/>
+<path d="M24.9 5.7 39.1 5.7 32.0 9.9Z" fill="#d9a900" stroke="#d9a900"/>
+<path d="M15.4 6.4 27.6 13.6 13.6 27.6 6.4 15.4Z" fill="#ffd21a" stroke="#ffd21a"/>
+<path d="M58.3 5.7 58.3 8.5 55.5 5.7Z" fill="#111114" stroke="#111114"/>
+<path d="M58.3 24.9 58.3 39.1 54.1 32.0Z" fill="#d9a900" stroke="#d9a900"/>
+<path d="M57.6 15.4 50.4 27.6 36.4 13.6 48.6 6.4Z" fill="#ffd21a" stroke="#ffd21a"/>
+<path d="M58.3 58.3 55.5 58.3 58.3 55.5Z" fill="#111114" stroke="#111114"/>
+<path d="M39.1 58.3 24.9 58.3 32.0 54.1Z" fill="#d9a900" stroke="#d9a900"/>
+<path d="M48.6 57.6 36.4 50.4 50.4 36.4 57.6 48.6Z" fill="#ffd21a" stroke="#ffd21a"/>
+<path d="M5.7 58.3 5.7 55.5 8.5 58.3Z" fill="#111114" stroke="#111114"/>
+<path d="M5.7 39.1 5.7 24.9 9.9 32.0Z" fill="#d9a900" stroke="#d9a900"/>
+<path d="M6.4 48.6 13.6 36.4 27.6 50.4 15.4 57.6Z" fill="#ffd21a" stroke="#ffd21a"/>
+</g></svg>
