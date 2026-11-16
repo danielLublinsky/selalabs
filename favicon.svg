@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- SelaLabs mark: a faceted rock ("sela") whose facets meet at one hub, like steps wired to an agent -->
-  <rect width="32" height="32" rx="7" fill="#ffd21a"/>
-  <g stroke="#111114" stroke-linejoin="round" stroke-linecap="round">
-    <path d="M5.5 21.5 10 10.5 18.5 5.5 26.5 13 26.5 21.5 21 26.5 10 26.5Z" fill="#fff" stroke-width="2.2"/>
-    <path d="M15.5 16.5 10 10.5M15.5 16.5 18.5 5.5M15.5 16.5 26.5 13M15.5 16.5 21 26.5M15.5 16.5 5.5 21.5" fill="none" stroke-width="1.6"/>
-  </g>
-  <circle cx="15.5" cy="16.5" r="2.7" fill="#111114"/>
+  <!-- SelaLabs mark: a cut rock ("sela") — three flat facets, lit from the top left -->
+  <rect width="32" height="32" rx="7" fill="#111114"/>
+  <path d="M8.5 13.5 15.5 5.5 23.5 9 17 15.5Z" fill="#fff3a6"/>
+  <path d="M5 26 8.5 13.5 17 15.5 13.5 26Z" fill="#ffd21a"/>
+  <path d="M13.5 26 17 15.5 23.5 9 27.5 18 26.5 26Z" fill="#d9a900"/>
 </svg>
