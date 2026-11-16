@@ -137,6 +137,47 @@
     form.reset();
   });
 
+  /* ---------- Hero workflow: rotate example scenarios ---------- */
+  const wf = document.querySelector("[data-wf]");
+  if (wf) {
+    const data = JSON.parse(wf.querySelector("[data-wf-data]").textContent);
+    const panels = [...wf.querySelectorAll("[data-wf-panel]")];
+    const desc = wf.querySelector("[data-wf-desc]");
+    const tabs = [...wf.querySelectorAll("[data-wf-tab]")];
+    let current = 0;
+    let timer = null;
+
+    // Each example is its own diagram (own pipeline, own loop length).
+    const show = (i) => {
+      current = i;
+      panels.forEach((p, j) => (p.hidden = j !== i));
+      desc.textContent = data[i].desc;
+      tabs.forEach((t, j) => t.setAttribute("aria-pressed", String(j === i)));
+      const svg = panels[i].querySelector("svg");
+      svg.classList.add("wf-reset");
+      void svg.getBoundingClientRect(); // force reflow so the animation starts from 0
+      svg.classList.remove("wf-reset");
+    };
+
+    // Auto-rotate: move on when the current diagram finishes one loop
+    // (lengths come from scripts/gen-workflow.py via data-wf-data).
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const queueNext = () => {
+      timer = setTimeout(() => {
+        show((current + 1) % data.length);
+        queueNext();
+      }, data[current].ms);
+    };
+    if (!reduceMotion) queueNext();
+
+    tabs.forEach((t, j) =>
+      t.addEventListener("click", () => {
+        clearTimeout(timer); // the visitor picked one — stop rotating
+        show(j);
+      })
+    );
+  }
+
   /* ---------- Footer year ---------- */
   const year = document.querySelector("[data-year]");
   if (year) year.textContent = String(new Date().getFullYear());
